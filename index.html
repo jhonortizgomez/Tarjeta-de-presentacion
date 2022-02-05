@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: #352C52;
+        }
+        section{
+            width: 100%;
+            display: flex;
+            justify-content: center;
+        }
+       .card{
+           width: 320px;
+           height: 450px;
+           background: #352C52;
+           border-radius: 10px;
+           overflow: hidden;
+           margin-top: 5%;
+           box-shadow: 1px 2px 10px greenyellow;
+       }
+       .card__header{
+           display: flex;
+           height: 40%;
+       }
+       .card__header button{
+            margin-top: 30px;
+            margin-left: 20px;
+            background: greenyellow;
+            color: #352C52;
+            font-weight: bolder;
+            font-size: small;
+            border-radius: 5px;
+            width: 70px;
+            height: 30px;
+       }
+       .header__img{
+           border-radius: 50%;
+           border: 1px solid greenyellow;
+           overflow: hidden;
+           height: 145px;
+           width: 180px;
+           margin-top: 30px;
+           margin-left: 10px;
+       }
+       .header__img img{
+            width: 100%;
+            height: 100%;
+       }
+       .header__logoPlatzi{
+           display: flex;
+           justify-content: end;
+           margin-top: 30px;
+           width: 30%;
+       }
+       .header__logoPlatzi img{
+           width: 30px;
+           height: 30px;
+           margin-right: 20px;
+       }
+       .card__body{
+           display: flex;
+           justify-content: center;
+           flex-direction: column;
+       }
+       .body__text{
+           text-align: center;
+           color:papayawhip;
+       }
+       .body__text h1{
+           margin-bottom: 0;
+       }
+       .body__text h5{
+           margin-top: 3px;
+           margin-bottom: 3px;
+       }
+       .body__text h4{
+           margin: 2px;
+       }
+       .body__buttons{
+           display: flex;
+           justify-content: center;
+           margin-top: 10px;
+       }
+       .body__buttons button:nth-child(1){
+           background-color:yellowgreen;
+           color: #352C52;     
+           width: 110px;
+           height: 40px;
+           margin-right: 5px;
+           border-radius: 5px;
+       }
+       .body__buttons button:nth-child(2){
+           background-color:#352C52;
+           color: yellowgreen;
+           width: 110px;
+           height: 39px;
+           border-radius: 4px;
+           border: 1px solid yellowgreen;
+       }
+       .card__footer{
+           background: #231940;
+           height: 100%;
+       }
+       .card__footer p{
+          color: papayawhip;
+          padding-top: 10px;
+          padding-left: 10px;
+       }
+       .footer__skill{
+          display: flex;
+          justify-content: space-evenly;
+       }
+       .footer__skill button:nth-child(1){
+           background: #231940;
+           border: 0.5px solid papayawhip;
+           padding: 5px 10px;
+           color: papayawhip;
+       }
+       .footer__skill button:nth-child(2){
+           background: #231940;
+           border: 0.5px solid papayawhip;
+           padding: 5px 10px;
+           color: papayawhip;
+       }
+       .footer__skill button:nth-child(3){
+           background: #231940;
+           border: 0.5px solid papayawhip;
+           padding: 5px 10px;
+           color: papayawhip;
+       }
+    </style>
+
+</head>
+<body>
+    <section>
+        <div class="card">
+            <div class="card__header">
+                <button>PLATZI</button>
+                <div class="header__img">
+                    <img src="/assets/yo.jpeg" alt="">
+                </div>
+                <div class="header__logoPlatzi">
+                    <img src="https://static.platzi.com/ui/assets/image/isotipoPlatzi093f27a2fb00922bb105.png" alt="Logo Platzi">
+                </div>
+            </div>
+            <div class="card__body">
+                <div class="body__text">
+                    <h1>Jhon E. Ortiz G.</h1>
+                    <h5>Colombia</h5>
+                    <h4>Uso de diseño de interfaz</h4>
+                    <h4>Front-end developer</h4>
+                </div>
+                <div class="body__buttons">
+                    <button>Mensaje</button>
+                    <button>Following</button>
+                </div>
+            </div>
+            <div class="card__footer">
+                <p>Skill</p>
+                <div class="footer__skill">
+                    <button>Frontend Developer</button>
+                    <button>HTML</button>
+                    <button>CSS</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
